@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(10, 175, 241);
+    padding: 10px 50px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+li:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}
+img{
+    cursor: pointer;
+}
+main{
+    padding: 50px;
+}
+.p11::first-line{
+    color:rgb(6, 103, 230);
+}
+.p11::first-letter{
+    font-size: xx-large;
+}
+.p11::before{
+    content: "😎";
+}
+::selection{
+    background-color: green;
+    color: white;
+}
+.d2{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    transition: background-color 1s,width 2s,height 2s,transforn 5s;
+}
+.d2:hover{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(12, 148, 239);
+    transform: rotate(360deg);
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: background-color 1s,margin-left 2s,transform 3s;
+}
+.div3:hover{
+    background-color: slateblue;
+    margin-left: 200px;
+    transform: rotate(180deg);
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: rgb(10, 175, 241);
+    padding: 10px 50px;
+}
